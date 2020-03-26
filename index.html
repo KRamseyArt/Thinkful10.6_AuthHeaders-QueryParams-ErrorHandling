@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thinkful 10.6 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="searchRepos">
+        <fieldset>
+            <legend>GitHub Search</legend>
+            <p>- Input a User Handle to Search -</p>
+            <!-- <label for="username">Username:</label> -->
+            <input type="text" id="username" name="username" required>
+
+            <input type="submit" id="submit-btn" value="Submit">
+        </fieldset>
+    </form>
+    <section class="hidden">
+        <h2> Click a link below to visit</h2>
+        <ul id="results">
+        </ul>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
